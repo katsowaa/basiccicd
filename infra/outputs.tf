@@ -13,3 +13,6 @@ output "webapp_url" {
 output "acr_name" {
   value = module.container_registry.name
 }
+output "resource_group" {
+  value = "myprojectkasia-dev-rg"
+}
